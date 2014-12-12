@@ -10,7 +10,9 @@ services:
   - selenium
 
 before_script:
-  - "echo $MY_SECRET"
+  - "echo $BRANCH"
+  - "echo $HEAD_BRANCH"
+  - "echo $BASE_BRANCH"
   - "export DISPLAY=:99.0"
   - "/etc/init.d/xvfb start"
 
