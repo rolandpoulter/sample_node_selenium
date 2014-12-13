@@ -23,7 +23,7 @@ cache: true
 
 build_timeout: 360
 
-build_image: shippable/minv2
+# build_image: shippable/minv2
 
 notifications:
   email:
