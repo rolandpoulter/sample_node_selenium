@@ -10,7 +10,9 @@ services:
   - selenium
 
 before_script:
-  - "echo $MY_SECRET"
+  - "echo $BRANCH"
+  - "echo $HEAD_BRANCH"
+  - "echo $BASE_BRANCH"
   - "export DISPLAY=:99.0"
   - "/etc/init.d/xvfb start"
 
@@ -19,9 +21,9 @@ after_script:
 
 cache: true
 
-build_timeout: 420
+build_timeout: 360
 
-build_image: shippable/minv2
+# build_image: shippable/minv2
 
 notifications:
   email:
