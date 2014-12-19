@@ -28,7 +28,7 @@ images:
     build:
       type: docker
       # name: lala/foofoo
-      tag: latest
+      # tag: latest
       # code_path: /src
 
 # build_image: shippable/minv2
