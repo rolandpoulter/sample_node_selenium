@@ -27,7 +27,7 @@ images:
   image:
     build:
       type: docker
-      name: shippable/minv2
+      name: lala/foofoo
       tag: latest
       codePath: /src
 
