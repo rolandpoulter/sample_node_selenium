@@ -23,7 +23,15 @@ cache: true
 
 build_timeout: 360
 
-build_image: shippable/minv2
+images:
+  image:
+    build:
+      type : docker
+      name: shippable/minv2
+      tag: latest
+      codePath: /src
+
+# build_image: shippable/minv2
 
 notifications:
   email:
