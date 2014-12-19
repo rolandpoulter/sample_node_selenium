@@ -27,7 +27,7 @@ images:
   image:
     build:
       type: docker
-      name: lala/foofoo
+      # name: lala/foofoo
       tag: latest
       # code_path: /src
 
